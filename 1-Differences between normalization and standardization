@@ -1,0 +1,19 @@
+
+Normalization:
+
+- Objective: To scale the values of a variable to a specific range, usually between 0 and 1.
+- Formula: X_normalized = (X - X_min) / (X_max - X_min)
+- Range: Typically, the normalized values lie between 0 and 1.
+- Effect on Distribution: Preserves the shape of the original distribution but scales it to a specific range.
+
+Standardization:
+
+- Objective: To transform the values of a variable to have a mean of 0 and a standard deviation of 1.
+- Formula: X_standardized = (X - μ) / σ
+- Mean and Standard Deviation: The standardized values have a mean of 0 and a standard deviation of 1.
+- Effect on Distribution: Centers the distribution around 0 and scales it by the standard deviation.
+
+Key Points:
+- Normalization is useful when the features have different ranges, and you want to bring them to a common scale.
+- Standardization is beneficial when comparing variables that may have different units or when working with algorithms that assume normally distributed data.
+- The choice between normalization and standardization depends on the requirements of the specific machine learning algorithm or analytical method being used.
